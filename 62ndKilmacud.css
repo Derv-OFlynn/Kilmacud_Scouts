@@ -1,0 +1,515 @@
+/*
+Student name: Dervla O'Flynn C22344363
+*/
+
+/*body background*/
+body
+{
+    margin: 0; 
+    background-image: url('https://media.istockphoto.com/id/1075629340/vector/green-leaves-seamless-pattern.jpg?s=612x612&w=0&k=20&c=QGe-uKhQMhSCrGi1vPiQmOQ-b2wGpSFNVZToTtD5_qM=');
+    padding: 0;
+}
+
+/*header styling*/
+.header
+{
+    width: 100%;
+    vertical-align: top;
+    left: 0%;
+    height: 95%;
+
+}
+
+/*Custom menu to override bootstrap styling*/
+.menuDerv
+{
+    text-align: center;
+    border: 3px solid rgb(255, 255, 116);
+    background-color: white;
+    border-radius: 5px;
+    color:rgb(12, 142, 12);
+    display: grid;
+    place-items: center;
+    margin-left: 20%;
+    margin-right: 20%;
+} 
+
+/*anchor styling*/
+a
+{
+    font-family: 'Segoe UI', sans-serif;
+    color: rgb(12, 142, 12);
+}
+
+/*Anchor inside a list styling*/
+li a
+{
+  color:rgb(12, 142, 12);
+}
+
+/*Anchor with link*/
+a:link
+{
+    color: rgb(12, 142, 12);
+}
+
+/*visited anchor*/
+a:visited
+{
+  color:rgb(12, 142, 12);
+}
+
+a:active
+{
+  color: seagreen;
+}
+
+a:hover
+{
+  color:darkgoldenrod;
+}
+
+.menuDerv a
+{
+  color: rgb(12, 142, 12);
+}
+
+.menuDerv a:link
+{
+  color: rgb(12, 142, 12);
+}
+
+.menuDerv a:hover
+{
+  color:darkgoldenrod;
+}
+
+.menuDerv a:visited
+{
+  color:rgb(12, 142, 12)
+}
+
+.menuDerv a:active
+{
+  color:seagreen;
+}
+
+.nav-item a:active
+{
+  color: rgb(12, 142, 12);
+  border: 3px solid darkgoldenrod ;
+}
+
+.navbar-nav a:visited
+{
+  color:rgb(12, 142, 12);
+}
+
+.navbar-nav a:active
+{
+  color:rgb(12, 142, 12);
+}
+
+.navbar-nav a:link
+{
+  color:rgb(12, 142, 12);
+}
+
+.navbar-nav a:hover
+{
+  color:darkgoldenrod;
+}
+
+#navbarDropdownMenuLink
+{
+  color: rgb(12, 142, 12);
+
+}
+
+#navbarDropdownMenuLink:hover
+{
+  color: darkgoldenrod;
+}
+
+.footer
+{
+    border: rgb(255, 255, 255);
+}
+
+h2{
+    text-align: center;
+}
+
+/*Main Container styling*/
+.MainContainer
+{
+  padding: 2%;
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: WhiteSmoke;
+  border-style: solid;
+  border-color: ForestGreen;
+  border-radius: 5px;
+  display: grid;
+}
+
+/*Styling for main Heading*/
+.ContentHeading
+{
+  font-family: "Trebuchet MS", sans-serif;
+  text-align: center;
+  border: 3px solid rgb(255, 255, 116);
+  border-radius: 5px;
+  background-color: honeydew;
+  margin-left: 25%;
+  margin-right: 25%;
+  color: rgb(71, 75, 71);
+}
+
+/*Styling for main paragraph*/
+.ContainerParagraph 
+{
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+  color: rgb(71, 75, 71);
+}
+
+/*Second border for the craic*/
+.secondBorder
+{
+  padding: 1%;
+  border-style: solid;
+  border-color: ForestGreen;
+  border-radius: 5px;
+  display: grid;
+}
+
+.SectionImg
+{
+  width: 8%;
+}
+
+footer
+{
+    width:100%;
+    background-color: honeydew;
+    text-align: center;
+    vertical-align: bottom;
+    bottom: 0;
+    
+}
+
+.FooterText
+{
+    text-align: center;
+    color: rgb(71, 75, 71) ;
+}
+
+.TroopBadgeImg
+{
+  width: 60%;
+  border-style: solid;
+  border-color: ForestGreen;
+  border-radius: 5px;
+}
+
+.BadgeImg
+{
+  width: 40%;
+  border-style: solid;
+  border-color: ForestGreen;
+  border-radius: 5px;
+}
+
+div ul
+{
+  text-align: center;
+}
+
+ol
+{
+  display: grid;
+  place-items: center;
+  color: rgb(71, 75, 71)
+}
+
+
+div a
+{
+  text-align: center;
+}
+
+/*stlying for most tables. Bord is the irish for table*/
+.bord
+{
+  display: grid;
+  place-items: center;
+  word-wrap: break-word;
+}
+
+th, td
+{
+  color:rgb(71, 75, 71);
+  padding-top: 5%;
+}
+
+
+form
+{
+  display: grid;
+  place-items: center;
+}
+
+
+/* Contact form stylings */
+input[type=text], select, textarea {
+  width: 70%; /* Full width */
+  padding: 0.5%; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 3%; /* Add a top margin */
+  margin-bottom: 3%; /* Bottom margin */
+  resize: vertical;
+}
+
+
+input[type=submit] {
+  background-color: rgb(255, 255, 116);
+  color: rgb(71, 75, 71);
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: darkgoldenrod;
+}
+
+label
+{
+  color: rgb(71, 75, 71);
+}
+/*End of contact form stylings*/
+
+/*Colour coding for Events*/
+.section
+{
+  background-color: rgba(12, 142, 12, 0.25);
+  color: rgb(71, 75, 71);
+}
+
+.troop
+{
+  background-color: rgba(255, 255, 116, 0.25);
+  color: rgb(71, 75, 71);
+}
+
+.county
+{
+  background-color: rgba(0, 140, 255, 0.25);
+  color: rgb(71, 75, 71);
+}
+
+.province
+{
+  background-color: rgba(25, 0, 255, 0.25);
+  color: rgb(71, 75, 71);
+}
+
+.national
+{
+  background-color: rgba(43, 255, 0, 0.25);
+  color: rgb(71, 75, 71);
+}
+
+.international
+{
+  background-color: rgba(153, 0, 255, 0.5);
+  color: rgb(71, 75, 71);
+}
+/*End of colour coding for events*/
+
+.BadgeButton
+{
+  color: rgb(71, 75, 71);
+  background-color: honeydew;
+  border-color: rgb(12, 142, 12);
+  border-radius: 5px;
+  border-style: solid;
+}
+
+.MapEmbed
+{
+  height: 40%;
+  width: 80%;
+  border: 2px solid rgb(12, 142, 12);
+  border-radius: 5px;
+}
+
+/*Slideshow styling and brute force because jaysus*/
+.container {
+position: static;
+}
+
+
+.mySlides {
+  display: grid;
+  place-items: center;
+  width: 10%;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.prevIMG,
+.nextIMG {
+  cursor: pointer;
+  position: relative;
+  width: 12%;
+  padding: 0vw;
+  color: rgb(12, 142, 12);
+  background-color: rgb(255, 255, 116);
+  font-size: 200%;
+  border-radius: 0 3px 3px 0;
+}
+
+
+.prevIMG
+{
+  padding-left:0;
+}
+
+.nextIMG {
+  padding-right: 0;
+}
+
+/*Inverts color of buttons when hovered over to give feedback*/
+.prevIMG:hover,
+.nextIMG:hover {
+  color:rgb(255, 255, 116);
+  background-color: rgb(12, 142, 12);
+}
+
+.numbertext {
+  color: darkgoldenrod;
+  padding: 0;
+  position:relative;
+}
+
+.caption-container {
+  text-align: center;
+  background-color: rgb(71, 75, 71);
+  padding: 2px 16px;
+  color: honeydew;
+}
+
+/*Styling for the anniversary book pages*/
+.SilverJubilee
+{
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  height:70vh;
+}
+
+/*MEDIA QUERIES!!!!*/
+/* Extra small devices (phones, 600px and down) */
+  @media only screen and (max-width: 600px)
+  {
+    .SilverJubilee
+    {
+      width: 65vw;
+      height: auto;
+    }
+    .BadgeImg
+    {
+      width: 65vw;
+      height: auto;
+    }
+    .SectionImg
+    {
+      width: 20%;
+    }
+  }
+
+
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px)
+  {
+    .SilverJubilee
+    {
+      width: 65vw;
+      height: auto;
+    }
+    .BadgeImg
+    {
+      width: 65vw;
+      height: auto;
+    }
+    .SectionImg
+    {
+      width: 20%;
+    }
+  }
+
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) 
+  {
+    .SilverJubilee
+    {
+      width: 65vw;
+      height: auto;
+    }
+    .BadgeImg
+    {
+      width: 65vw;
+      height: auto;
+    }
+    .SectionImg
+    {
+      width: 20%;
+    }
+  }
+
+
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) 
+  {
+    .SilverJubilee
+    {
+      height: 70vh;
+      width: auto;
+    }
+    .BadgeImg
+    {
+      width: 40%;
+      height: auto;
+    }
+    .SectionImg
+    {
+      width: 8%;
+    }
+  }
+
+
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) 
+  {
+    .SilverJubilee
+    {
+      height: 70vh;
+      width: auto;
+    }
+    .BadgeImg
+    {
+      width: 40%;
+      height: auto;
+    }
+    .SectionImg
+    {
+      width: 8%;
+    }
+  }
