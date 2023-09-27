@@ -158,7 +158,7 @@ h2{
 {
   font-family: "Trebuchet MS", sans-serif;
   text-align: center;
-  border: 3px solid rgb(255, 204, 0);
+  border: 3px solid rgb(255, 204, 0) !important;
   border-radius: 5px;
   background-color: honeydew;
   margin-left: 25%;
